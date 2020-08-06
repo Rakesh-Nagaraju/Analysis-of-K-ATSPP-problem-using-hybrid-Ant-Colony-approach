@@ -14,7 +14,7 @@ Run:
 
 Folder: Hybrid_Ant_Colony
 1.) main.py
-'''
+
        Python program to implement an hybrid algorithm that combines
        ACO, 3-OPT and Genetic Algorithm.
        This algorithm is designed to solve the k-ATSPP problem also generalized as
@@ -31,9 +31,9 @@ Folder: Hybrid_Ant_Colony
           by the Menu in the Code.     
         - Incase of crash or failure or any abrupt scenario, kindly run the code from beginning.
         - Incase of futher queries, please contact the author Rakesh Nagaraju at : rakesh.nagaraju@sjsu.edu or rakenju@gmail.com
-''' 
+
 2.) Ant_Colony_Opt.py
-'''
+
        Implementation of Ant Colony Algorithm.
        Returns Minimum path taken by ants to travel between 
        specified start and destination covering all intermediate nodes.
@@ -52,9 +52,9 @@ Folder: Hybrid_Ant_Colony
             decay_rate : rate at which the pheromone should decay.
             alpha : weights on the pheromones
             beta : weights on the distances       
-'''
+
 3.) Genetic_Algo.py
-'''
+
        Implementation of Multi-Chromosome Genetic Algorithm (GA).
        Returns 8 different tours after performing 7 different Mutation and Crossover operations. 
        Mutation includes : Swap, Inverse/Flip, Slide
@@ -69,10 +69,10 @@ Folder: Hybrid_Ant_Colony
        
        Arguments to be provided:
             tour: the tour on which GA operations are to be performed.      
-'''
+
 
 4.) OPT_3.py
-'''
+
        Implementation of 3-OPT Optimization.
        Randomly chooses 3, 3 edges and interchanges them. 
        If total tour is better, then keep the tour else disregard. 
@@ -85,25 +85,25 @@ Folder: Hybrid_Ant_Colony
        Arguments to be provided:
             distance_matrix: distance matrix    
             path: the tour or path that is to be optimized.     
-'''
+
 
 4.)File_Parse_TSP.py
-'''
+
 Contains code to parser a TSPLIB file before applying the Optimization techniques.
-'''
+
 
 Folder: Testing 
 We have an algorithm to compare with our implementation
 Dynamic_Programming.py
-'''
+
 Dynamic progrmming Implementation by Carl Ekerot
 
 Currently modified to suit the Asymmetric graph and also handle Multiple salesman
 while randomly choosing the points (s,t) for the testing purpose of 
 "Analysis of k-ATSPP using modified ACO approach" project
-'''
+
 
 Folder: Dataset 
 Contains the data for testing
-'''
+
  Note: In case of any doubts kindly contact rakesh.nagaraju@sjsu.edu
