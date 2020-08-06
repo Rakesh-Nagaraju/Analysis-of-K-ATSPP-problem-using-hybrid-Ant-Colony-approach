@@ -2,7 +2,15 @@
 Also uses 3-OPT and Genetic Algorithm
 Contains : 3 folders: Dataset, Acutal implementation and Testing code.
 
-
+Run:
+ Clone the Repo
+ Open Testing Folder
+ Run main.py
+ Mention the correct file-path during the run. All codes contain comments that self explainatory.
+ 
+ To test against DP solution , goto Testing folder, copy the code File_Parse_TSP.py to the same folder
+ 
+ Incase of any failure or system crash, run the code from the beginning.
 
 Folder: Hybrid_Ant_Colony
 1.) main.py
@@ -94,3 +102,8 @@ Currently modified to suit the Asymmetric graph and also handle Multiple salesma
 while randomly choosing the points (s,t) for the testing purpose of 
 "Analysis of k-ATSPP using modified ACO approach" project
 '''
+
+Folder: Dataset 
+Contains the data for testing
+'''
+ Note: In case of any doubts kindly contact rakesh.nagaraju@sjsu.edu
